@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/my-app-ci.yaml"
-      - "my-app-ci/**"
+      - "my-app/**"
 
 env:
   PACKAGE: my
